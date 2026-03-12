@@ -1,0 +1,9 @@
+{
+  "name": "YUR AI - Oracle Prime Elite",
+  "description": "Advanced neural interface with Gemini 3 Pro reasoning, Veo video generation, and Maps grounding.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone",
+    "camera"
+  ]
+}

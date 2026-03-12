@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: oracle-prime-elite
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_GEMINI_API_KEY
+        sync: false
+      - key: VITE_TRINITY_URL
+        sync: false
